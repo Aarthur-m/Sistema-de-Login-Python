@@ -1,0 +1,117 @@
+/* Arquivo: static/css/template.css */
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 0 auto;
+}
+.Cadastro input{
+  width:100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 23px;
+}
+
+.Login input{
+  width:100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 23px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  padding-top: 10px;
+  text-align: center;
+}
+
+#login-form {
+  margin-top: 20px;
+  display: none;
+}
+
+#login-link {
+  text-align: center;
+}
+
+flash-message {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-align: center;
+  color: #333;
+}
+.flash-message.success {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #155724;
+}
+.flash-message.error {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #721c24;
+}
+
+.flash-message.error p{
+  font-size: 1.2em;
+  background-color: rgb(245, 119, 110);
+  padding: 2px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.flash-message.success p{
+  background-color: #d4edda;
+  font-size: 1.2em;
+  padding: 2px;
+  border-radius: 10px;
+  width: 50%;
+}
